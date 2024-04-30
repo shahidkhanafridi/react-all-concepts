@@ -19,10 +19,33 @@ const Layout = () => {
           <li>
             <Link to="/myform">My Form</Link>
           </li>
+          <li>
+            <Link to="/favoritecolor">Favorite Color</Link>
+          </li>
+          <li>
+            <Link to="/car">Car</Link>
+          </li>
+          <li>
+            <Link to="/timer">Timer</Link>
+          </li>
+          <li>
+            <Link to="/timerrunonce">Timer Run Once</Link>
+          </li>
+          <li>
+            <Link to="/timerrunonvariablechange">Timer Run on Variable Change</Link>
+          </li>
+          <li>
+            <Link to="/timercleartimeout">Timer Clear timeout</Link>
+          </li>
+          <li>
+            <Link to="/propdrillingcomponent">Prop Drilling Component</Link>
+          </li>
         </ul>
       </nav>
       
-      <Outlet />
+      <div>
+        <Outlet />
+      </div>
     </>
   )
 };
